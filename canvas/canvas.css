@@ -1,0 +1,7 @@
+canvas {
+    border: solid lightblue 2px;
+    background-image: url("gras.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
