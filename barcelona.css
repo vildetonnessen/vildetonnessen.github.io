@@ -1,0 +1,10 @@
+#forside {
+    background-image: url("barcelona.png");
+    width: 520px;
+    height: 292px;
+}
+
+body {
+    background-color: rgb(255, 223, 97);
+}
+

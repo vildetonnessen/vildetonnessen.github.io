@@ -1,0 +1,9 @@
+#forside {
+    background-image: url("monaco.png");
+    width: 577px;
+    height: 385px;
+}
+
+body {
+    background-color: rgb(255, 223, 97);
+}

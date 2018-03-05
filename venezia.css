@@ -1,0 +1,9 @@
+#forside {
+    background-image: url("venezia.png");
+    width: 980px;
+    height: 490px;
+}
+
+body {
+    background-color: rgb(255, 223, 97);
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 223, 97);
+}
+
+#forside {
+    background-image: url("cruise.png");
+    width: 600px;
+    height: 250px;
+}
+
+h1{
+    color: white;
+}

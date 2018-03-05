@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cruise.css">
+    <script src="cruise.js"></script>
+</head>
+
+<body>
+    <h1>BESTILL CRUISE!</h1>
+    <div id="main">
+        <div id="forside"></div>
+        <h2>Velkommen til Norges beste cruise-bestillingsside!</h2>
+        <div id="info">
+            Vi tilbyr flotte cruise-reiser til ulike syd-europeeiske destinasjoner!
+           <br> <br> Hos oss kan du bestille en reise fra din nærmeste havneby, til et av sydeuropas perler.
+            <br> Finn informasjon om de ulike destinasjons-byene <A HREF="file:///Users/vildetonnessen/Documents/3STF/IT/vildetonnessen.github.io/cruise/informasjon.html">her.</A>
+        </div>
+        <br>
+        <form id="skjema">
+            Hvor vil du starte din avreise?:
+            <br>
+            <select id="fra">
+                <option>Kristiansand</option>
+                <option>Haugesund</option>
+                <option>Larvik</option>
+            </select>
+            <p></p>
+            Hvilken magisk plass vil du reise til?:
+            <br>
+            <select id="til">
+                <option>Venezia</option>
+                <option>Barcelona</option>
+                <option>Cannes</option>
+                <option>Monaco</option>
+            </select>
+            <p></p>
+            <label> Hvor mange skal være med på reisen?
+                <br>
+                <input type="number" id="antall">
+            </label>
+            <p></p>
+            I hvilken klassen vil du foreta din reise?:
+            <br>
+            <select id="klasse">
+                <option>førsteklasse</option>
+                <option>presidentStyle</option>
+                <option>økonomi</option>
+            </select>
+            <p></p>
+            <label> Bare et klikk unna drømme-cruiset!
+                <button type="button" id="bestill">Bestill</button>
+            </label>
+        </form>
+
+        <div id="melding">
+
+        </div>
+    </div>
+    <script>
+        setup();
+
+    </script>
+</body>
+
+</html>
